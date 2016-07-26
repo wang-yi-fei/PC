@@ -1,0 +1,2396 @@
+body {
+    color: #666;
+    -webkit-user-select: none;
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+}
+
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, table, thead, tbody, tfoot, tr, th, td, caption, form, input, select, textarea, img, span, i, b, em, strong, font, sub, sup, s, u, a {
+    margin: 0;
+    padding: 0;
+}
+i{
+    font-style: normal;
+}
+
+img {
+    border: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input, select, img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear:before, .clear:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+a:hover{
+    color: #C81623;
+}
+.con1210 {
+    margin: 0 auto;
+    width: 1210px;
+}
+
+.header {
+    height: 176px;
+    position: relative
+}
+
+.subNav {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #f1f1f1;
+    z-index: 1;
+}
+
+.header .subNav .con1210 {
+    height: 30px;
+}
+
+.header .subNav .con1210 .subNavLeft, .header .subNav .con1210 .subNavRight {
+    float: left
+}
+
+.subNav .con1210 .subNavLeft li {
+    position: relative;
+    cursor: default;
+    height: 30px;
+}
+.subNav .con1210 .subNavLeft .haveC-right:hover {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    background: #fff;
+}
+
+.subNav .con1210 .subNavLeft .haveC-right:hover div {
+    padding: 0 24px 0 9px;
+}
+
+.subNav .con1210 .subNavLeft .haveC-right:hover .placeList {
+    padding: 10px 0 10px 10px;
+
+}
+
+.subNav .con1210 .subNavLeft .haveC-right:hover .c-right {
+    right: 9px;
+    transform: rotate(180deg)
+}
+
+.subNav .con1210 .subNavLeft .haveC-right:hover .placeList {
+    display: block;
+    z-index: 12;
+    background: #ffffff;
+}
+
+.subNav .con1210 .subNavLeft .haveC-right div {
+    padding: 0 25px 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+.subNav .con1210 .subNavLeft .haveC-right div .c-right {
+    transition: transform .13s;
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    height: 7px;
+    overflow: hidden;
+    font: 400 15px/15px consolas;
+    color: #6A6A6A;
+}
+
+.subNav .con1210 .subNavLeft li div .c-right .ss {
+    position: relative;
+    top: -7px;
+    text-decoration: none;
+}
+
+.subNav .con1210 .subNavLeft .haveC-right .placeList {
+    display: none;
+    width: 310px;
+    position: absolute;
+    z-index: 11;
+    top: 30px;
+    left: -1px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #dddddd;
+}
+
+.subNav .con1210 .subNavLeft .haveC-right .placeList .item {
+    float: left;
+    width: 60px;
+    padding: 2px 0;
+}
+
+.subNav .con1210 .subNavLeft .haveC-right .placeList .item a {
+    display: block;
+    color: #666666;
+    width: 40px;
+    height: 24px;
+    line-height: 24px;
+
+}
+
+/*.con1210 .subNavLeft .haveC-right .placeList .item a.selected{*/
+/*background: #C81623;*/
+/*color:#fff;*/
+/*}*/
+.subNav .con1210 .subNavLeft .haveC-right .blank {
+    /*background: red;*/
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    background: #fff;
+}
+
+.subNav .con1210 .subNavLeft .haveC-right .placeList .item a:hover {
+    background-color: #f4f4f4;
+}
+
+.header .subNav .con1210 .subNavLeft .haveC-right .placeList .item a:focus {
+    background: #C81623;
+    color: #fff;
+}
+
+.header .subNav .con1210 .subNavRight {
+    float: right;
+}
+
+.subNav .con1210 .subNavRight .a {
+    /*margin-left: 10px;*/
+    float: left;
+}
+
+.subNav .con1210 .subNavRight .a a {
+    color: #666666;
+}
+
+.subNav .con1210 .subNavRight .spacer {
+    width: 1px;
+    height: 12px;
+    margin-top: 9px;
+    padding: 0;
+    background: #ddd;
+    overflow: hidden;
+}
+
+.subNav .con1210 .subNavRight .a .two {
+    color: #C81623;
+    /*margin-left: 7px;*/
+    margin-right: 5px;
+}
+
+/*/////*/
+.subNav .con1210 .subNavRight .haveC-right div {
+    padding: 0 25px 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+.subNav .con1210 .subNavRight .haveC-right div .c-right {
+    transition: transform .13s;
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    height: 7px;
+    overflow: hidden;
+    font: 400 15px/15px consolas;
+    color: #6A6A6A;
+}
+
+.subNav .con1210 .subNavRight li div .c-right .ss {
+    position: relative;
+    top: -7px;
+    text-decoration: none;
+    font: 400 15px/15px consolas;
+}
+
+.subNav .con1210 .subNavRight .haveC-right .dx {
+    padding: 0 10px 0 10px;
+}
+
+.subNav .con1210 .subNavRight .haveC-right:hover .c-right {
+    right: 9px;
+    transform: rotate(180deg)
+}
+
+.subNav .con1210 .subNavRight .changeRed:hover {
+    color: #C81623;
+}
+
+.subNav .con1210 .subNavRight .haveR-right:hover {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    background: #fff;
+}
+
+.subNav .con1210 .subNavRight .haveR-right:hover .placeList {
+    display: block;
+}
+
+.subNav .con1210 .subNavRight .haveR-right:hover div {
+    padding: 0 24px 0 9px;
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList {
+    z-index: 11;
+    /*display: block;*/
+    display: none;
+    width: 240px;
+    background: #ffffff;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #dddddd;
+}
+.subNav .con1210 .subNavRight .haveR-right .placeList .blank{
+    position: absolute;
+    width: 48px;
+    height: 3px;
+    top: -1px;
+    left: 0;
+    background: #fff;
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList .item {
+    float: left;
+    width: 60px;
+    padding: 2px 0;
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList .item a {
+    display: block;
+    color: #666666;
+    width: 40px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList b {
+    position: absolute;
+    top: 15px;;
+    left: 94px;
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList .cc {
+    margin-top: 40px;
+    margin-left: 73px;
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList .xx li {
+    float: left;
+    margin-right: 10px;
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList .tuo {
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList .tuo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList .ult {
+    padding: 0;
+    height: 100px;
+    margin-top: 80px;
+
+}
+
+.subNav .con1210 .subNavRight .haveR-right .placeList .zuo {
+    margin-left: 4px;
+    float: left;
+    margin-right: 60px;
+}
+
+/*subNav END*/
+.subThen .con1210 {
+    height: 100px;
+}
+
+.subThen .con1210 .jdLogo {
+    float: left;
+    position: relative;
+    padding: 20px 0 20px 0;
+    width: 362px;
+}
+
+.subThen .con1210 .jdLogo a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 92px;
+    background: url("../img/logo-201305.png") no-repeat;
+}
+
+.subThen .con1210 .search {
+    float: left;
+    margin-top: 25px;
+    position: relative;
+}
+
+.subThen .con1210 .search .form {
+    display: inline-block;
+}
+
+.subThen .con1210 .search .form input[type=text] {
+    float: left;
+    width: 440px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    padding: 4px;
+    margin-bottom: 4px;
+    border-width: 2px 0 2px 2px;
+    border-color: #B61D1D;
+    border-style: solid;
+    outline: 0;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+
+.subThen .con1210 .search .form input[type=button] {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background: #B61D1D;
+    border: none;
+    line-height: 1;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subThen .con1210 .buyCar {
+    float: right;
+    z-index: 11;
+    height: 36px;
+    margin-top: 25px;
+    margin-right: 65px;
+}
+
+.subThen .con1210 .buyCar .car {
+    position: relative;
+    cursor: default;
+    zoom: 1;
+    width: 75px;
+    height: 34px;
+    border: 1px solid #DFDFDF;
+    padding: 0 28px 0 36px;
+    background: #F9F9F9;
+    text-align: center;
+    line-height: 34px;
+}
+
+.subThen .con1210 .buyCar .car .smallCar {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 9px;
+    left: 18px;
+    width: 18px;
+    height: 16px;
+    background: url("../img/jd2015img.png") no-repeat;
+    background-position: 0 -58px;
+}
+
+.subThen .con1210 .buyCar .car .right {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 11px;
+    right: 10px;
+    width: 7px;
+    height: 13px;
+    font: 400 13px/13px simsun;
+    color: #999;
+    text-decoration: none;
+}
+
+.subThen .con1210 .buyCar .car .last {
+    position: absolute;
+    top: -4px;
+    left: 104px;
+    display: inline-block;
+    padding: 1px 2px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #c81623;
+    border-radius: 7px 7px 7px 0;
+    min-width: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subThen .con1210 .buyCar .inCar {
+    position: absolute;
+    right: 134px;
+}
+
+.subThen .con1210 .buyCar .inCar .ju {
+    padding: 10px 15px;
+
+}
+
+.subThen .con1210 .buyCar .inCar .ju .he {
+    display: none;
+    padding-left: 30px;
+    height: 49px;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+}
+
+.subThen .con1210 .buyCar .inCar .ju .he span {
+    float: left;
+    width: 56px;
+    height: 49px;
+    background-image: url(../img/settleup-nogoods.png);
+}
+
+.subThen .con1210 .buyCar:hover .ju {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.subThen .con1210 .buyCar:hover .ju .he {
+    display: block;
+    width: 308px;
+}
+
+.subThen .con1210 .buyCar:hover .car {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.subThen .con1210 .buyCar:hover .spacer {
+    position: absolute;
+    right: 1px;
+    top: -7px;
+    width: 139px;
+    height: 12px;
+    background: #fff;
+}
+
+.subThen .con1210 .unList {
+    width: 518px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.subThen .con1210 .unList a {
+    float: left;
+    white-space: nowrap;
+    margin-right: 10px;
+    color: #666666;;
+}
+
+.subThen .con1210 .unList a.bg {
+    color: #c81623
+}
+
+.NavH {
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+
+.NavH .con1210 .firstLift {
+    float: left;
+    position: relative;
+    z-index: 10;
+    width: 210px;
+    height: 44px;
+    overflow: visible;
+    background: #B1191A;
+}
+
+.NavH .con1210 .firstLift .first a {
+    display: block;
+    width: 189px;
+    height: 44px;
+    padding: 0 10px;
+    background: #B1191A;
+    font: 400 15px/44px "microsoft yahei";
+    color: #fff;
+}
+
+.NavH .con1210 .firstLift .list {
+    height: 466px;
+    background: #c81623;
+    margin-top: 2px;
+}
+
+.NavH .con1210 .firstLift .list .ll:hover {
+    background: #fff;
+    color: #c81623;
+}
+
+.NavH .con1210 .firstLift .list .ll:hover .hover{
+    display: block;
+}
+.NavH .con1210 .firstLift .list .ll:hover .hover a{
+    color: #666666;
+}
+.NavH .con1210 .firstLift .list .ll:hover .hover .leftRightT1 .cc a{
+    color: #ffffff;
+}
+
+.NavH .con1210 .firstLift .list .ll .he {
+    border-left: 1px solid #b61d1d;
+    position: relative;
+    z-index: 1;
+    height: 31px;
+    color: #fff;
+}
+
+.NavH .con1210 .firstLift .list .ll .he a {
+    display: block;
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    height: 31px;
+    padding: 0 10px;
+    line-height: 31px;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.NavH .con1210 .firstLift .list .ll:hover a {
+    color: #c81623;
+}
+
+.NavH .con1210 .firstLift .list .ll .he i {
+    position: absolute;
+    z-index: 2;
+    top: 9px;
+    right: 14px;
+    width: 4px;
+    height: 14px;
+    font: 400 9px/14px consolas;
+}
+.hover{
+    width: 999px;
+    display: none;
+    position: absolute;
+    left: 209px;
+    top: 45px;
+    background: #f7f7f7;
+    border: 1px solid #b61d1d;
+    overflow: hidden;
+}
+.leftRightT{
+    float: right;
+    display: inline;
+    width: 168px;
+    overflow: hidden;
+    margin: 19px 20px 10px 0;
+}
+.leftRightT .inner{
+    font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
+}
+.leftRightT .inner a{
+    float: left;
+    color: #666666;
+    display: inline;
+    margin: 1px 0 0 1px;
+}
+.leftRightT .inner a img{
+    width: 83px;
+    height: 35px;
+}
+.leftRightT1{
+    float: left;
+    display: inline;
+    width: 790px;
+    height: 24px;
+    padding: 20px 0 0 20px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+.leftRightT1 .cc{
+    font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
+}
+.leftRightT1 .cc a{
+    float: left;
+    display: inline;
+    padding: 0 0 0 8px;
+    margin-right: 10px;
+    line-height: 24px;
+    background: #7C7171;
+    color: #fff;
+    white-space: nowrap;
+}
+.leftRightT1 .cc a i{
+    display: inline-block;
+    margin-left: 8px;
+    width: 23px;
+    height: 24px;
+    font: 400 9px/24px consolas;
+    background: #5c5251;
+    text-align: center;
+    cursor: pointer;
+}
+.leftRightT2{
+    float: left;
+    width: 790px;
+    padding: 6px 0 1006px 20px;
+    margin-bottom: -1000px;
+    background: #f7f7f7;
+    min-height: 409px;
+}
+.leftRightT2 dl{
+    width: 100%;
+    overflow: hidden;
+    line-height: 2em;
+}
+.leftRightT2 dl dt{
+    position: relative;
+    float: left;
+    width: 54px;
+    padding: 8px 30px 0 0;
+    text-align: right;
+    font-weight: 700;
+}
+.leftRightT2 dl dt a i{
+    position: absolute;
+    top: 13px;
+    right: 18px;
+    width: 4px;
+    height: 14px;
+    font: 400 9px/14px consolas;
+}
+.leftRightT2 dl dd{
+    border-top: none;
+    width: 620px;
+    float: left;
+    padding: 6px 0;
+}
+.leftRightT2 dl dd a{
+    float: left;
+    color: #666666;
+    padding: 0 8px;
+    margin: 4px 0;
+    line-height: 16px;
+    height: 16px;
+    border-left: 1px solid #e0e0e0;
+    white-space: nowrap;
+}
+.NavH .con1210 .thenList li {
+    float: left;
+}
+
+.NavH .con1210 .thenList li a {
+    height: 44px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font: 400 16px/44px "microsoft yahei";
+    color: #333;
+}
+
+.NavH .con1210 .thenList li a:hover {
+    color: #c81623;
+}
+
+.bodyBanner {
+    margin: 0 auto;
+    width: 1210px;
+    height: 466px;
+    position: relative;
+}
+
+.bodyBanner .banner {
+    /*background: yellow;*/
+    position: absolute;
+    top: 12px;
+    left: 220px;
+    width: 730px;
+    height: 454px;
+
+    /*background: url("") no-repeat center #cccccc;*/
+}
+
+.bodyBanner .banner .bannerInner {
+    width: 100%;
+    height: 100%
+}
+
+.bodyBanner .banner .bannerInner div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.bodyBanner .banner .bannerInner img {
+    /*display: none;*/
+    width: 100%;
+    height: 100%
+}
+
+.bodyBanner .banner .focusList {
+    position: absolute;
+    right: 295px;
+    bottom: 7px;
+    z-index: 2;
+}
+
+.bodyBanner .banner .focusList li {
+    cursor: pointer;
+    float: left;
+    width: 18px;
+    height: 18px;
+    /*border: 2px solid #000000;*/
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: #3e3e3e;
+}
+
+.bodyBanner .banner .focusList li.bg {
+    background-color: #b61b1f;
+}
+
+.bodyBanner .banner .leftBtn, .banner .rightBtn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 2;
+    width: 28px;
+    height: 50px;
+    background: url("../img/pre.png") no-repeat;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.bodyBanner .banner .leftBtn {
+    left: 0;
+}
+
+.bodyBanner .banner .rightBtn {
+    right: 0;
+    background-position: -50px 0;
+}
+
+.bodyBanner .news {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    width: 247px;
+    border-top: 1px solid #e8e8e7;
+    border-left: 1px solid #e8e8e7;
+    border-right: 1px solid #e8e8e7;
+    height: 163px;
+    /*background: lightblue;*/
+}
+
+.bodyBanner .news .newsH {
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px dashed #e8e8e7;
+}
+
+.bodyBanner .news .newsH h3 {
+    float: left;
+    margin-left: 16px;
+    font-size: 16px;
+    color: #666;
+}
+
+.bodyBanner .news .newsH a {
+    float: right;
+    color: #666666;
+    margin-right: 16px;
+}
+
+.bodyBanner .news .newsH a:hover {
+    color: #c81623;
+}
+
+.bodyBanner .news .newsH a i {
+    width: 4px;
+    height: 14px;
+    font: 400 9px/14px consolas;
+}
+
+.bodyBanner .news .newsB {
+    padding: 10px 0 0 15px;
+}
+
+.bodyBanner .news .newsB b {
+    font-size: 12px;
+}
+
+.bodyBanner .news .newsB li {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.bodyBanner .news .newsB li:hover {
+    color: #c81623;
+}
+
+.bodyBanner .app {
+    position: absolute;
+    right: 0;
+    top: 176px;
+    overflow: hidden;
+    width: 247px;
+    border: solid 1px #e4e4e4;
+}
+
+.bodyBanner .app .tu {
+    height: 208px;
+    position: relative;
+}
+
+.bodyBanner .app .tu .he {
+    position: relative;
+    width: 260px;
+    height: 209px;
+    overflow: hidden;
+}
+
+.bodyBanner .app .tu .he .logo {
+    position: relative;
+    float: left;
+    display: inline;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #E8E8E7;
+    border-bottom: 1px solid #E8E8E7;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.bodyBanner .app .tu .he .logo a {
+    display: block;
+    width: 62px;
+    height: 28px;
+    color: #666666;
+    padding-top: 41px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bodyBanner .app .tu .he .logo a i {
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 0;
+}
+
+.bodyBanner .app .tu .he .v1 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -25px;
+}
+
+.bodyBanner .app .tu .he .v2 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -50px;
+}
+
+.bodyBanner .app .tu .he .v3 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -75px;
+}
+
+.bodyBanner .app .tu .he .v4 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -100px;
+}
+
+.bodyBanner .app .tu .he .v5 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -125px;
+}
+
+.bodyBanner .app .tu .he .v6 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -150px;
+}
+
+.bodyBanner .app .tu .he .v7 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -175px;
+}
+
+.bodyBanner .app .tu .he .v8 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -200px;
+}
+
+.bodyBanner .app .tu .he .v9 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -225px;
+}
+
+.bodyBanner .app .tu .he .v10 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -250px;
+}
+
+.bodyBanner .app .tu .he .v11 a i {
+    background: url(../img/57620a6fN77b2b8af.png) no-repeat 0 -275px;
+}
+
+.bodyBanner .smallPhoto {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+    width: 250px;
+    height: 75px;
+}
+
+.bodyBanner .smallPhoto a img {
+    width: 100%;
+    height: 100%;
+}
+
+.bodyThen {
+    width: 100%;
+    height: 100%;
+}
+
+.bodyThen .con1210 {
+}
+
+.bodyThen .con1210 .top {
+    position: relative;
+    /*background: lightblue;*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 174px;
+}
+
+.bodyThen .con1210 .top .left {
+    float: left;
+    width: 210px;
+    height: 151px;
+    background: url(../img/homebg.png) no-repeat -213px -136px;
+    text-indent: -10000px;
+    cursor: pointer;
+}
+
+.bodyThen .con1210 .top .left .data {
+    position: relative;
+    width: 210px;
+    height: 151px;
+    background: url(../img/homebg.png) 0 -136px no-repeat;
+}
+
+.bodyThen .con1210 .top .left .data .watch {
+    position: absolute;
+    left: 72px;
+    top: 31px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+.bodyThen .con1210 .top .left .data .watch::before {
+    content: "";
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.bodyThen .con1210 .top .left .data .watch .watch-a {
+    transform: rotate(252.5deg);
+    position: absolute;
+    top: 5px;
+    left: 19px;
+    height: 19px;
+    width: 5px;
+    background-color: #fff;
+    border-radius: 2px;
+    transform-origin: 2.5px 16.5px;
+}
+
+.bodyThen .con1210 .top .left .data .watch .watch-b {
+    position: absolute;
+    left: 5px;
+    top: 19px;
+    width: 19px;
+    height: 5px;
+    background: 0 0;
+    border-radius: 2px;
+}
+
+.bodyThen .con1210 .top .left .data .watch .watch-c {
+    position: absolute;
+    left: 19px;
+    top: -6px;
+    width: 5px;
+    height: 28px;
+    transform-origin: bottom;
+    animation: tick-tock 10s linear infinite;
+}
+
+.bodyThen .con1210 .top .left .data .watch .watch-b::after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: -17px;
+    width: 5px;
+    height: 21px;
+    background-color: #fff;
+    border-radius: 2px;
+    transform-origin: 2.5px 19.5px;
+    animation: tick-tock 20s steps(60, end) infinite;
+}
+
+.bodyThen .con1210 .top .left .data .watch .watch-c::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    background-color: #5e5252;
+    border-radius: 50%;
+}
+
+.bodyThen .con1210 .top .right {
+    position: absolute;
+    left: 210px;
+    width: 1000px;
+    overflow: hidden;
+    height: 164px;
+    /*background: greenyellow;*/
+}
+
+.bodyThen .con1210 .top .right .ding {
+    position: relative;
+    width: 1000px;
+    overflow: hidden;
+    height: 164px;
+}
+
+.bodyThen .con1210 .top .right .bannerImg {
+    position: absolute;
+    left: 0;
+    width: 4000px;
+    height: 164px;
+}
+
+.bodyThen .con1210 .top .right .bannerImg li div {
+    width: 249px;
+    float: left;
+    padding-right: 1px;
+}
+
+.bodyThen .con1210 .top .right .bannerImg li div img {
+    /*display: none;*/
+    /*opacity: 0;*/
+    width: 100%;
+    height: 100%;
+}
+
+.bodyThen .con1210 .top .right .rightbtn, .bodyThen .con1210 .top .right .leftbtn {
+    display: none;
+    position: absolute;
+    background: url("../img/pre.png") no-repeat;
+    width: 30px;
+    height: 50px;
+    top: 50%;
+    margin-top: -20px;
+    opacity: 0.4;
+}
+
+.bodyThen .con1210 .top .right .rightbtn {
+    right: 0;
+    background-position: -49px
+}
+
+.bodyThen .con1210 .top .right .leftbtn {
+    left: 0
+}
+
+.bodyThen .con1210 .bottom .bottomTop {
+    height: 36px;
+}
+
+.bodyThen .con1210 .bottom .bottomTop .bottomLeft {
+    float: left;
+    width: 600px;
+}
+
+.bodyThen .con1210 .bottom .bottomTop .bottomLeft span {
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+.bodyThen .con1210 .bottom .bottomTop .bottomLeft span {
+    display: block;
+    width: 280px;
+    height: 30px;
+    background: url(../img/homebg.png) 85px -91px;
+
+}
+
+.bodyThen .con1210 .bottom .bottomTop .bottomRight {
+    float: right;
+    display: inline;
+}
+
+.bodyThen .con1210 .bottom .bottomTop .bottomRight a {
+    display: block;
+    color: #666;
+    height: 18px;
+    padding-right: 25px;
+    margin-top: 8px;
+    background: url(../img/homebg.png) -310px -5px no-repeat;
+}
+
+.bodyThen .con1210 .bottom .bottomTop .bottomRight a:hover {
+    color: #C81623;
+    background-position: -310px -29px;
+}
+
+.bodyThen .con1210 .bottom .bottomThen {
+    height: 260px;
+    border: 1px solid #ededed;
+    border-top: 0;
+    overflow: visible;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenLeft {
+    width: 202px;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #e6e6e6;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .space {
+    position: relative;
+    height: 1px;
+    line-height: 0;
+    font-size: 0;
+    background-color: #d1d1d1;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenLeft .gao {
+    margin: 36px auto 0 auto;
+    height: 16px;
+    width: 166px;
+    background: url(../img/56a5d4a6N3ee370d0.jpg) no-repeat;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenLeft .ding {
+    margin-top: 18px;
+    padding-left: 7px;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenLeft .ding a {
+    float: left;
+    width: 71px;
+    height: 31px;
+    border: 1px solid #ece8e7;
+    color: #838282;
+    font-family: "microsoft yahei";
+    text-align: center;
+    line-height: 31px;
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenLeft .ding a:hover {
+    border-color: #ffd4ca;;
+    color: #fe7758;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenRight ul {
+    height: 240px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenRight ul li {
+    width: 200px;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenRight ul li div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenRight ul li a {
+    color: #666;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenRight ul li a img {
+    width: 150px;
+    height: 150px;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenRight ul li span {
+    display: block;
+    height: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenRight ul li span:hover {
+    color: #C81623;
+}
+
+.bodyThen .con1210 .bottom .bottomThen .bottomThenRight ul li p {
+    font-size: 16px;
+    text-align: center;
+    color: #c81623;
+    font-weight: bold;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastTop {
+    margin-top: 20px;
+    color: #333;
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen {
+    height: 405px;
+    border: 1px solid #ededed;
+    overflow: hidden;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft {
+    background-color: #f7f7f7;
+    float: left;
+    height: 100%;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a1 {
+    width: 403px;
+    position: relative;
+    display: block;
+    height: 246px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a1 .p0 {
+    font: 700 15px/40px 'Microsoft Yahei';
+    color: #333;
+    text-align: center;
+    z-index: 1;
+    border-bottom: 1px dashed #e0e0e0;
+    margin: 0 20px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a1 div {
+    position: absolute;
+    left: 45px;
+    top: 109px;
+    color: #333;
+    font-family: 'Microsoft Yahei';
+    line-height: 1.2;
+    z-index: 2;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a1 div .p1 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a1 div .p2 {
+    margin-bottom: 4px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a1 div .p3 {
+    color: #c81623;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a2 {
+    position: relative;
+    width: 201px;
+    float: left;
+    height: 158px;
+    border-bottom: none;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a2 div {
+    position: absolute;
+    left: 10px;
+    top: 48px;
+    color: #333;
+    font-family: 'Microsoft Yahei';
+    line-height: 1.2;
+    z-index: 2;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a2 div .p1 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a2 div .p2 {
+    margin-bottom: 4px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a2 div .p3 {
+    color: #c81623;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a3 {
+    position: relative;
+    width: 201px;
+    float: left;
+    height: 158px;
+    border-bottom: none;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a3 div {
+    position: absolute;
+    left: 10px;
+    top: 48px;
+    color: #333;
+    font-family: 'Microsoft Yahei';
+    line-height: 1.2;
+    z-index: 2;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a3 div .p1 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a3 div .p2 {
+    margin-bottom: 4px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenLeft .a3 div .p3 {
+    color: #c81623;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle {
+    float: left;
+    height: 100%;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a1 {
+    width: 228px;
+    position: relative;
+    display: block;
+    height: 246px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a1 .p0 {
+    font: 700 15px/40px 'Microsoft Yahei';
+    color: #333;
+    text-align: center;
+    z-index: 1;
+    border-bottom: 1px dashed #e0e0e0;
+    margin: 0 20px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a1 div {
+    position: absolute;
+    left: 10px;
+    top: 109px;
+    color: #333;
+    font-family: 'Microsoft Yahei';
+    line-height: 1.2;
+    z-index: 2;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a1 div .p1 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a1 div .p2 {
+    margin-bottom: 4px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a1 div .p3 {
+    color: #c81623;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a2 {
+    width: 228px;
+    position: relative;
+    display: block;
+    height: 246px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a2 div {
+    position: absolute;
+    left: 10px;
+    top: 48px;
+    color: #333;
+    font-family: 'Microsoft Yahei';
+    line-height: 1.2;
+    z-index: 2;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a2 div .p1 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a2 div .p2 {
+    margin-bottom: 4px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenMiddle .a2 div .p3 {
+    color: #c81623;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenList {
+    width: 170px;
+    float: right;
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenList .ul1 {
+    border-right: 1px dashed #e0e0e0;
+    float: left;
+    width: 82px;
+    position: relative;
+    height: 381px;
+    margin-top: 13px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenList .ul2 {
+    float: right;
+    width: 82px;
+    position: relative;
+    height: 381px;
+    margin-top: 13px;
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenList ul li {
+    width: 74px;
+    position: relative;
+    float: right;
+    height: 57px;
+    margin: 0 5px;
+    border-bottom: 1px dashed #e0e0e0;
+    /*border-right: 1px dashed #e0e0e0;*/
+}
+
+.bodyThen .con1210 .bottom .bottomLast .bottomLastThen .bottomLastThenList ul li a {
+    position: absolute;
+    top: 0;
+    display: block;
+    height: 57px;
+    line-height: 57px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.bodyThen .con1210 .last {
+    margin: 20px 0 auto;
+}
+
+.bodyThen .con1210 .last div {
+    float: left;
+}
+
+.bodyContent .con1210 .lists {
+    margin-bottom: 20px;
+}
+.bodyContent .con1210 .lists2 .last{
+    margin-top: 15px;
+}
+.bodyContent .con1210 .lists2 .last div{
+    float: left;
+}
+
+.bodyContent .con1210 .lists .listsTop {
+    border-bottom: 1px solid #c81623;
+    height: 36px;
+    overflow: visible;
+    _zoom: 1;
+    position: relative;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopLift {
+    position: relative;
+    padding-left: 40px;
+    color: #333;
+    float: left;
+    display: inline;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopLift::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 31px;
+    height: 25px;
+    background: url(../img/product_home_1.0.0.png) no-repeat 0 -35px;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopLift i {
+    font-style: normal;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 21px;
+    height: 25px;
+    padding-right: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    background: url(../img/product_home_1.0.0.png?__sprite) no-repeat 0 0;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopRight {
+    float: right;
+    border: solid 1px #ededed;
+    border-bottom: 0 none;
+    height: 34px;
+    line-height: 34px;
+    z-index: 1;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopRight ul {
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopRight ul li {
+    float: left;
+    height: 34px;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopRight ul li a .space {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 32px;
+    left: 0;
+    background: #ffffff;;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopRight ul li a {
+    display: block;
+    position: relative;
+    /*border-right: 1px solid #ccc;*/
+    padding: 0 16px;
+    height: 33px;
+    line-height: 33px;
+    color: #666;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: solid 3px transparent;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopRight ul li a.bg {
+    border-left: 1px solid #c81623;
+    border-right: 1px solid #c81623;
+    border-top: solid 3px #c81623;
+    color: #c81623;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopRight ul li a.bg .space {
+    display: block;
+}
+
+.bodyContent .con1210 .lists .listsTop .listsTopRight ul li a.fg {
+    border-right: 0;
+}
+
+.bodyContent .con1210 .lists .listsContent {
+    /*float: left;*/
+    /*/!*width: 330px;*!/*/
+    /*overflow: hidden;*/
+    /*font-family: "microsoft yahei";*/
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft {
+    float: left;
+    position: relative;
+    width: 330px;
+    background: #e5ebeb;
+    overflow: hidden;
+}
+
+.bodyContent .con1210 .lists .listsContent .left2 {
+    float: left;
+    position: relative;
+    width: 210px;
+    background: #e5ebeb;
+    overflow: hidden;
+}
+.bodyContent .con1210 .lists .listsContent .xx{
+    height: 474px;
+    width: 1010px;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .seler1one{
+    width: 1010px;
+    height: 474px;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .seler1one li{
+    float: left;
+    width: 165px;
+    height: 230px;
+    padding: 6px 17px 0;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .seler1one li .img{
+    height: 140px;
+    margin-bottom: 4px;
+    text-align: center;
+    padding-top: 15px;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .seler1one li .zi{
+    height: 3em;
+    margin-bottom: 3px;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .seler1one li .money{
+    font-size: 15px;
+    font-family: Verdana;
+    color: #E4393C;
+}
+.bodyContent .con1210 .lists .listsContent .left2 .listsContentLeftTop .listsContentLeftTop1 .ha {
+    background: rgba(255, 255, 255, .7);
+    height: 145px;
+}
+
+.bodyContent .con1210 .lists .listsContent .left2 .listsContentLeftTop .listsContentLeftTop1 .he {
+    margin-top: -239px;
+    padding-left: 10px;
+}
+
+.bodyContent .con1210 .lists .listsContent .left2 .listsContentLeftTop .listsContentLeftTop1 .he li {
+    padding: 10px 0 0 0;
+}
+
+.bodyContent .con1210 .lists .listsContent .left2 .listsContentLeftTop .listsContentLeftTop1 .ha li {
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.bodyContent .con1210 .lists .listsContent .left2 .listsContentLeftTop .listsContentLeftTop1 .ha li.bg {
+    height: 61px;
+    width: 159px;
+}
+
+.bodyContent .con1210 .lists .listsContent .left2 .listsContentLeftTop .listsContentLeftTop1 .ha li.bg a {
+    color: #666666;
+    font-size: 12px;
+}
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop, .bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 {
+    position: relative;
+    height: 474px;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .he {
+    padding-left: 25px;
+    margin-top: -221px;
+    background: rgba(255, 255, 255, .5);
+    width: 305px;
+    height: 92px;
+}
+#banner5 div{
+    float: left;
+}
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .he .li1 {
+    width: 100px;
+    float: left;
+    height: 26px;
+    padding: 10px 0;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .he .li1 a {
+    float: left;
+    color: #666666;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .he .li1 a i {
+    float: left;
+    display: block;
+    background: url(../img/clothesicon.png) 0 0 no-repeat;
+    width: 26px;
+    margin-right: 5px;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .he .li1 a span {
+    font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .he .li1 a span:hover {
+    color: #c81623;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .ha {
+    height: 128px;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    background: #fff;
+    background: rgba(255, 255, 255, .5);
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .ha li {
+    height: 96px;
+    float: left;
+    width: 135px;
+    padding: 16px 0 0 25px;
+    overflow: hidden;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .ha li a {
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    margin-right: 12px;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentLeft .listsContentLeftTop1 .ha li a:hover {
+    color: #c81623;
+}
+
+.bodyContent .con1210 .lists .listsContent .seler {
+    display: none;
+    height: 100%;
+}
+.bodyContent .con1210 .lists .listsContent .seler.bg{
+    display: block;
+}
+.bodyContent .con1210 .lists .listsContent .seler1{
+    display: none;
+    float: left;
+    width: 880px;
+    height: 633px;
+}
+.bodyContent .con1210 .lists .listsContent .xx{
+    height: 474px;
+}
+.bodyContent .con1210 .lists .listsContent .seler1.bg{
+    display: block;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 ul{
+    height: 474px;
+    overflow: hidden;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .listsContentRight{
+    float: left;
+    width: 880px;
+    height: 366px;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .one li{
+    width: 185px;
+    float: left;
+    height: 230px;
+    padding: 6px 17px 0;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .one li a{
+    color: #666666;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .one li .img{
+    height: 140px;
+    margin-bottom: 4px;
+    text-align: center;
+    padding-top: 15px;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .one li .zi{
+    height: 3em;
+    margin-bottom: 3px;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .one li .money{
+    font-size: 15px;
+    font-family: Verdana;
+    color: #E4393C;
+}
+.bodyContent .con1210 .lists .listsContent .seler1 .two li{
+    float: left;
+    border-right: 1px solid #ededed ;
+    border-bottom: 1px solid #ededed ;
+}
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle {
+    width: 296px;
+    position: relative;
+    float: left;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner {
+    overflow: hidden;
+    width: 439px;
+    height: 315px;
+    position: relative;
+}
+#banner3 div{
+    float: left;
+}
+.bodyContent .con1210 .lists .listsContent .Middle2{
+    width: 339px;
+}
+.bodyContent .con1210 .lists .listsContent .Middle2 .banner {
+    width: 339px;
+    height: 176px;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner .bannerImg {
+    position: absolute;
+    width: 2195px;
+    left: 0;
+}
+.bodyContent .con1210 .lists .listsContent .Middle2 .banner .bannerImg div{
+    float: left;
+}
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner .focusList {
+    z-index: 11;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 44%;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner .focusList li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-left: 7px;
+    background: #3e3e3e;
+    border-radius: 50%;
+}
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner .focusList li.bg{
+    background:#E4393C ;
+}
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner .left,.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner .right{
+    display: none; width: 30px; height: 45px; position: absolute; top: 50%; margin-top: -23px; background: url("../img/pre.png") no-repeat ; opacity: .6; filter: alpha(opacity = 60);
+}
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner .left{
+    left: 0;
+}
+.bodyContent .con1210 .lists .listsContent .listsContentMiddle .banner .right{
+    right: 0;
+    background-position: -45px 0;
+}
+.bodyContent .con1210 .lists .listsContent .listsContentRight {
+    width: 440px;
+    float: right;
+    height: 633px;
+}
+
+.bodyContent .con1210 .lists .listsContent .right2 {
+    float: right;
+    width: 661px;
+    height: 427px;
+}
+.bodyContent .con1210 .lists .listsContent .right2 ul li{
+    width: 219px;
+    height: 296px;
+    float: left;
+}
+
+.bodyContent .con1210 .lists .listsContent .listsContentRight ul {
+    float: left;
+}
+
+.bodyContent .con1210 .lists .listsContentLast {
+    margin-top: 10px;
+
+}
+
+.bodyContent .con1210 .lists .listsContentLast ul {
+    margin-top: 10px;
+    background: #f7f7f7;
+    height: 66px;
+    line-height: 66px;
+
+}
+
+.bodyContent .con1210 .lists .listsContentLast li {
+    float: left;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    padding: 12px 0 12px 10px;
+
+}
+
+.bodyContent .con1210 .lists .listsContentLast li a {
+    display: block;
+    border-right: 1px dashed #cccccc;
+}
+
+.bodyContent .con1210 .lists .listsContentLast li a.bg {
+    border-right: none;
+}
+
+.wei .con1210 {
+    position: relative;
+}
+
+.wei .con1210 .top {
+    height: 36px;
+}
+
+.wei .con1210 .top span {
+    display: block;
+    width: 300px;
+    float: left;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+}
+
+.wei .con1210 .top div {
+    float: right;
+}
+
+.wei .con1210 .top div span {
+    float: left;
+}
+
+.wei .con1210 .left {
+    width: 899px;
+    height: 281px;
+    border: solid #E5E5E5;
+    border-width: 1px 0 1px 1px;
+    overflow: hidden;
+}
+
+.wei .con1210 .left ul {
+    width: 910px;
+}
+
+.wei .con1210 .left ul li {
+    position: relative;
+    width: 219px;
+    height: 245px;
+    float: left;
+    padding: 18px 10px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+}
+
+.wei .con1210 .left ul li .tu {
+    width: 219px;
+    height: 180px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+    transition: margin-left 1s;
+
+}
+
+.wei .con1210 .left ul li:hover .tu {
+    transition: margin-left 1s;
+    margin-left: -15px;
+}
+
+.wei .con1210 .left ul li .tu1 {
+    transition: margin-left 1s;
+}
+
+.wei .con1210 .left ul li:hover .tu1 {
+    transition: margin-left 1s;
+    margin-left: -15px;
+}
+
+.wei .con1210 .left ul li .money {
+    padding-left: 20px;
+    position: absolute;
+    top: 226px;
+}
+
+.wei .con1210 .left ul li .money a {
+    color: #666;
+    display: block;
+    height: 18px;
+    margin-bottom: 6px;
+}
+
+.wei .con1210 .left ul li .money span {
+    display: block;
+    color: #e12228;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.wei .con1210 .left ul .two {
+    position: relative;
+    float: left;
+    width: 199px;
+    height: 104px;
+    padding: 18px 10px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+}
+
+.wei .con1210 .left ul .two .a {
+    position: absolute;
+    top: 17px;;
+    display: block;
+    right: 10px;
+    overflow: hidden;
+    float: right;
+    width: 94px;
+}
+
+.wei .con1210 .left ul .two .a p {
+    color: #666;
+
+}
+
+.wei .con1210 .left ul .two .a span {
+    color: #e12228;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.wei .con1210 .right {
+    position: absolute;
+    right: 0;
+    top: 36px;;
+    width: 268px;
+    float: right;
+    height: 226px;
+    padding: 35px 20px 20px;
+    border: 1px solid #EDEDED;
+}
+
+.last .top {
+    margin-top: 20px;
+    position: relative;
+    height: 54px;
+    padding: 20px 0;
+    margin-bottom: 14px;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.last .top span {
+    margin-right: 80px;
+}
+
+.last .middle {
+    height: 190px;
+}
+
+.last .middle .left {
+
+}
+
+.last .middle .left dl {
+    float: left;
+    width: 199px;
+}
+
+.last .middle .left dl dt {
+    padding: 6px 0;
+    font: 400 16px/24px "microsoft yahei";
+}
+
+.last .middle .left dl dd {
+    padding: 1px 0;
+}
+
+.last .middle .left .dl {
+    width: 90px
+}
+
+.last .middle .left dt, .last .middle .left dl dd {
+    cursor: pointer;
+}
+
+.last .middle .left dd:hover {
+    color: #B1191A;
+}
+
+.last .middle .right {
+    float: right;
+    width: 310px;
+    height: 168px;
+    background: url(../img/20130330B_1.png) no-repeat 60px -131px;
+}
+
+.last .middle .right .zi {
+    width: 192px;
+    margin: 5px auto;
+}
+
+.last .middle .right .zi .p1 {
+    font: 400 16px/24px "microsoft yahei";
+    margin-bottom: 15px;
+}
+
+.last .middle .right .zi a {
+    float: right;
+    color: #666666;
+}
+
+.last .middle .right .zi a:hover {
+    color: #B1191A;
+}
+
+.last .thenLast2 {
+    border-top: 1px solid #E5E5E5;
+    padding: 20px 0 30px;
+    text-align: center;
+}
+
+.last .thenLast2 .thenLast2Top a {
+    color: #666666;
+    margin: 0 10px;
+}
+
+.last .thenLast2 .thenLast2Mi {
+    margin: 10px 0;
+}
+
+.last .thenLast2 .thenLast2Mi a {
+    color: #666666;
+    margin: 0 10px;
+}
+
+.last .thenLast2 .thenLast2MiL a {
+    color: #666666;
+    margin: 0 5px;
+}
+
+.floor {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -170px;
+    width: 30px;
+    height: 341px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.floor li {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px dashed #EEE;
+    cursor: pointer;
+}
+
+.floor li span {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    color: #c81623;
+    background: #fff;
+}
+
+.floor li.bg span {
+    display: block;
+}
+
+.floor li:hover span {
+    display: block;
+    color: #fff;
+    background: #c81623;
+}
+.bigbox{
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9990;
+    width: 0;
+    height: 100%;
+}
+.zuiRight{
+    z-index: 111;
+    position: absolute;
+    right: 0;
+    top: 35%;
+    width: 0;
+    height: 100%;
+    border-right: 6px solid #7a6e6e;
+    -webkit-transition: right .3s ease-in-out 0s;
+    -moz-transition: right .3s ease-in-out 0s;
+    -ms-transition: right .3s ease-in-out 0s;
+    -o-transition: right .3s ease-in-out 0s;
+    transition: right .3s ease-in-out 0s;
+
+}
+.zuiRight .box .one{
+    z-index: 1111;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    background-color: #7a6e6e;
+    border-radius: 3px 0 0 3px;
+}
+.zuiRight .box .one .tu{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 6px;
+    height: 6px;
+    z-index: 999;
+    display: inline-block;
+    background: url("../img/toolbars.png") no-repeat -150px -150px;
+}
+.zuiRight .box .one .tu2{
+    display: block;
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 99;
+    background:  #7a6e6e url("../img/toolbars.png") no-repeat -88px -175px;
+}
+.zuiRight .box .one .tu3 {
+    width: 62px;
+    height: 35px;
+    line-height: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Î¢ÈíÑÅºÚ;
+    position: absolute;
+    z-index: 8;
+    left: 35px;
+    top: 0;
+    background-color: rgb(122, 110, 110);
+    border-radius: 3px 0 0 3px;
+    transition: left 0.3s ease-in-out 0.1s;
+}
+.zuiRight .box .one:hover .tu3{
+    left: -60px;
+    background: #E4393C;
+}
+.zuiRight .box .one:hover .tu2{
+    background:  #E4393C url("../img/toolbars.png") no-repeat -88px -175px;
+}
+.zuiRight .box{
+    position: absolute;
+    left: -29px;;
+}
+.boxLast{
+    position: absolute;
+    bottom: -1px;
+    height: 50%;
+    left: -29px;
+}
+.boxLast .one{
+    z-index: 99;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    background-color: #7a6e6e;
+    border-radius: 3px 0 0 3px;
+}
+.boxLast .one .tu{
+    display: block;
+    width: 34px;
+    height: 35px;
+    z-index: 100;
+    margin-left: 1px;
+    position: relative;
+    background:  #7a6e6e url("../img/toolbars.png") no-repeat -50px -250px;
+}
+.boxLast .one .tu1{
+    width: 62px;
+    height: 35px;
+    line-height: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Î¢ÈíÑÅºÚ;
+    position: absolute;
+    z-index: 8;
+    left: 35px;
+    top: 0;
+    background-color: rgb(122, 110, 110);
+    border-radius: 3px 0 0 3px;
+    transition: left 0.3s ease-in-out 0.1s;
+}
+.zuiRight .boxLast .one:hover .tu1{
+    left: -60px;
+    background: #E4393C;
+}
+.zuiRight .boxLast .one:hover .tu{
+    background:  #E4393C url("../img/toolbars.png") no-repeat -50px -250px;
+}
