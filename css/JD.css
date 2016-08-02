@@ -26,6 +26,7 @@ input, select, img {
 
 a {
     text-decoration: none;
+    color: #666;
 }
 
 .clear:before, .clear:after {
@@ -2127,7 +2128,92 @@ a:hover{
     padding: 35px 20px 20px;
     border: 1px solid #EDEDED;
 }
-
+.wei .con1210 .right .box{
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+    width: 268px;
+}
+.wei .con1210 .right .bb{
+    position: absolute;
+    top: 0;
+}
+.wei .con1210 .right .bb li{
+    height: 100px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.wei .con1210 .right .bb li .img{
+    float: left;
+    display: inline;
+    padding: 10px 0;
+    width: 80px;
+    height: 80px;
+}
+.wei .con1210 .right .bb li .img a img{
+    width: 80px;
+    height: 80px;
+}
+.wei .con1210 .right .bb li .p{
+    float: left;
+    display: inline;
+    width: 166px;
+    padding-left: 20px;
+    margin-top: 3px;
+}
+.wei .con1210 .right .bb li .p .p1{
+    height: 28px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.wei .con1210 .right .bb li .p .p1 img{
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.wei .con1210 .right .bb li .p .p1 span{
+    line-height: 28px;
+}
+.wei .con1210 .right .bb li .p .p2{
+    position: relative;
+    width: 130px;
+    height: 34px;
+    padding: 10px 15px 10px 20px;
+    background: #f8f8f8;
+    color: #999;
+    overflow: visible;
+}
+.wei .con1210 .right .bb li .p .p2 a{
+    display: block;
+    height: 38px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.wei .con1210 .right .bb li .p .p2 a span{
+    font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    vertical-align: -24px;
+    font-family: Arial;
+}
+.wei .con1210 .right .bb li .p .haha{
+    position: absolute;
+    left: -9px;
+    top: 19px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.wei .con1210 .right .bb li .p .heihei{
+    position: absolute;
+    left: 4px;
+    top: 7px;
+    font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    font-family: Arial;
+}
 .last .top {
     margin-top: 20px;
     position: relative;
